@@ -9,10 +9,10 @@ app.get('/', function (req, res) {
 })
 
 const ruta = '/prestador/:id'
-app.get(ruta, obtenerPrestadoresPorId, function (req, res)) {
+app.get(ruta, obtenerPrestadoresPorId, function (req, res) {
 
   res.send(userid)
-}
+})
 
 
 
