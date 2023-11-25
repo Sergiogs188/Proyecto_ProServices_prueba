@@ -2,7 +2,6 @@ const express = require('express')  // importamos la librería
 const app = express();               // generamos una instancia express
 
 
-
 // RUTAS
 app.get('/', function (req, res) {
   res.send('Hello World')
