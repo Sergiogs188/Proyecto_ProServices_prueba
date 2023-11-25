@@ -1,5 +1,5 @@
 const express = require('express')  // importamos la librería
-const app = express()               // generamos una instancia express
+const app = express();               // generamos una instancia express
 
 
 
@@ -103,7 +103,7 @@ const prestadores = [
 
 
 
-app.listen(4200, () => {
+app.listen(4200, (req, res) => {
   console.log('Servidor iniciado!!!')
 })
 
